@@ -3,7 +3,7 @@
 I run this Program using CMD(Command Prompt).
 If you run this Program in CMD,it will work Properly.
 But if you run this program on other Java IDE Except CMD ,You should comment out or remove this statement</h1>
-<br><br><center><h2>try{
+<br><center><h2>try{
 			new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
 		}catch(Exception e){
 			System.out.println(e);
